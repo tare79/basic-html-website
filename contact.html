@@ -1,9 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-    <main></main>
-    </body>
+
+<head>
+    <title>Frontend developer</title>
+    <!-- meta tags-->
+    <meta name="description" content="Basic Html Website">
+    <meta name=”robots” content="none">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Open graph tags-->
+    <meta property="og:title" content="Frontend developer" />
+    <meta property="og:description" content="Basic Html Website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <p>your name</p>
+    <nav>
+        <a href="index.html">Home</a> /
+        <a href="projects.html">Projects</a> /
+        <a href="articles.html">Articles</a> /
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1>Contact</h1>
+    </main>
+
+
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="bih">BiH</option>
+            </select>
+
+            <label for="subject">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
 </html>
