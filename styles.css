@@ -1,9 +1,16 @@
-nav { 
+nav {
     background-color: white;
     height: 40px;
     position: absolute;
     right: 30px;
     top: 10px;
+}
+
+.calveat {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 main {
@@ -16,6 +23,10 @@ main h1 {
     place-items: center;
     height: 100vh;
     font-size: 50px;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 * {
@@ -39,6 +50,13 @@ main h1 {
     float: left;
     height: 600px;
     border: 1px solid;
+}
+
+.first-column h1 {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .left {
@@ -78,6 +96,10 @@ ul {
 .reviews h1 {
     margin-top: 100px;
     margin-left: 50px;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .second-row {
@@ -105,11 +127,21 @@ ul {
 .rights {
     text-align: center;
     font-size: 25px;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 /*Contact form */
 
-input[type=text], select, textarea {
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -118,23 +150,23 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
+}
