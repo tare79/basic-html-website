@@ -16,17 +16,24 @@ nav {
 main {
     height: 600px;
     background-color: white;
+    display: flex;
 }
 
 main h1 {
-    display: grid;
-    place-items: center;
-    height: 100vh;
     font-size: 50px;
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+}
+
+.centered-div {
+    margin: auto;
+    text-align: center;
+}
+
+.centered-div p {
+    color: #8c8c8c;
 }
 
 * {
@@ -87,6 +94,14 @@ ul {
 
 .work-experience {
     border-bottom: 1px solid;
+}
+
+.work-experience a {
+    color: #3399ff;
+}
+
+.opensource-work a {
+    color: #3399ff;
 }
 
 .reviews {
