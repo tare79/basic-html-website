@@ -27,12 +27,12 @@ main h1 {
     font-style: normal;
 }
 
-.centered-div {
+.centered {
     margin: auto;
     text-align: center;
 }
 
-.centered-div p {
+.centered p {
     color: #8c8c8c;
 }
 
