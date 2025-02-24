@@ -40,26 +40,26 @@ main h1 {
     box-sizing: border-box;
 }
 
-.first-row {
+.content-row {
     height: 600px;
     text-align: center;
 }
 
 /* Clear floats after the columns */
-.first-row:after {
+.content-row:after {
     content: "";
     display: table;
     clear: both;
 }
 
 /* Create three unequal columns that floats next to each other */
-.first-column {
+.content-column {
     float: left;
     height: 600px;
     border: 1px solid;
 }
 
-.first-column h1 {
+.content-column h1 {
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -80,6 +80,7 @@ main h1 {
 
 ul {
     list-style-type: none;
+
 }
 
 .underline ul li {
@@ -94,10 +95,15 @@ ul {
 
 .work-experience {
     border-bottom: 1px solid;
+    padding: 30px;
 }
 
 .work-experience a {
     color: #3399ff;
+}
+
+.opensource-work {
+    padding: 30px;
 }
 
 .opensource-work a {
@@ -117,19 +123,19 @@ ul {
     font-style: normal;
 }
 
-.second-row {
+.reviews-row {
     margin-top: 50px;
 }
 
 /* Clear floats after the columns */
-.second-row:after {
+.reviews-row:after {
     content: "";
     display: table;
     clear: both;
 }
 
 /* Create three equal columns that floats next to each other */
-.second-column {
+.reviews-column {
     float: left;
     margin-right: 60px;
     margin-left: 40px;
