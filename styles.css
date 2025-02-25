@@ -44,7 +44,7 @@ nav {
 
 .content-row {
     height: 600px;
-   
+
 }
 
 /* Clear floats after the columns */
@@ -163,8 +163,16 @@ nav {
     margin-left: 60px;
     padding: 40px;
     border: 1px solid;
-    border-radius: 30px;
+    border-radius: 50px;
     text-align: left;
+}
+
+.reviewer {
+    color: #bfbfbf;
+}
+
+.reviewer-title {
+    color: #bfbfbf;
 }
 
 .rights {
@@ -174,15 +182,6 @@ nav {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-}
-
-.reviewer {
-    color:#bfbfbf;
-    padding-top: 40px;
-}
-
-.reviewer-title {
-    color:#bfbfbf;
 }
 
 /*Contact form */
