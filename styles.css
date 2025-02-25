@@ -100,7 +100,12 @@ nav {
     border-bottom: 1px solid;
 }
 
-ul {
+.left ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.right ul {
     list-style-type: none;
 }
 
@@ -108,7 +113,7 @@ ul {
     margin-top: 20px;
     border-bottom: 1px solid;
     padding: 4px;
-    margin-left: 0px;
+    padding-left: 50px;
 }
 
 .underline ul li:last-child {
@@ -129,7 +134,7 @@ ul {
 }
 
 .reviews {
-    height: 600px;
+    height: 500px;
 }
 
 .reviews h2 {
@@ -155,11 +160,11 @@ ul {
 .reviews-column {
     float: left;
     margin-right: 60px;
-    margin-left: 40px;
-    padding: 10px;
+    margin-left: 60px;
+    padding: 40px;
     border: 1px solid;
     border-radius: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .rights {
@@ -173,6 +178,7 @@ ul {
 
 .reviewer {
     color:#bfbfbf;
+    padding-top: 40px;
 }
 
 .reviewer-title {
