@@ -4,22 +4,24 @@ nav {
     position: absolute;
     right: 30px;
     top: 10px;
+    font-size: 20px;
 }
 
-.calveat {
+.caveat {
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    font-size: 22px;
 }
 
-main {
+.main-intro {
     height: 600px;
     background-color: white;
     display: flex;
 }
 
-main h1 {
+.main-intro h1 {
     font-size: 50px;
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
@@ -27,12 +29,12 @@ main h1 {
     font-style: normal;
 }
 
-.centered {
+.intro {
     margin: auto;
     text-align: center;
 }
 
-.centered p {
+.intro p {
     color: #8c8c8c;
 }
 
@@ -42,7 +44,7 @@ main h1 {
 
 .content-row {
     height: 600px;
-    text-align: center;
+   
 }
 
 /* Clear floats after the columns */
@@ -56,37 +58,57 @@ main h1 {
 .content-column {
     float: left;
     height: 600px;
-    border: 1px solid;
 }
 
-.content-column h1 {
+.content-column h2 {
+    margin-left: 50px;
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
+.content-column h3 {
+    margin-left: 50px;
+}
+
+.content-column p {
+    margin-left: 50px;
+}
+
+.content-column a {
+    margin-left: 50px;
+}
+
 .left {
     width: 25%;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .right {
     width: 35%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .middle {
     width: 40%;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 
 ul {
     list-style-type: none;
-
 }
 
 .underline ul li {
     margin-top: 20px;
     border-bottom: 1px solid;
     padding: 4px;
+    margin-left: 0px;
 }
 
 .underline ul li:last-child {
@@ -95,15 +117,11 @@ ul {
 
 .work-experience {
     border-bottom: 1px solid;
-    padding: 30px;
+    padding-bottom: 40px;
 }
 
 .work-experience a {
     color: #3399ff;
-}
-
-.opensource-work {
-    padding: 30px;
 }
 
 .opensource-work a {
@@ -114,12 +132,11 @@ ul {
     height: 600px;
 }
 
-.reviews h1 {
+.reviews h2 {
     margin-top: 100px;
     margin-left: 50px;
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 
@@ -152,6 +169,14 @@ ul {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+}
+
+.reviewer {
+    color:#bfbfbf;
+}
+
+.reviewer-title {
+    color:#bfbfbf;
 }
 
 /*Contact form */

@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Frontend developer</title>
-    <!-- meta tags-->
-    <meta name="description" content="Basic Html Website">
+    <title>Frontend Developer</title>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Basic HTML Website">
     <meta name="robots" content="none">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <!-- Open graph tags-->
-    <meta property="og:title" content="Frontend developer" />
-    <meta property="og:description" content="Basic Html Website" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Frontend Developer" />
+    <meta property="og:description" content="Basic HTML Website" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_GB" />
+
+    <!-- External Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,88 +25,94 @@
 </head>
 
 <body>
+    <header>
+        <h1>Your Name</h1>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a> /
+            <a href="projects.html">Projects</a> /
+            <a href="articles.html">Articles</a> /
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <p>your name</p>
-    <nav>
-        <a href="index.html">Home</a> /
-        <a href="projects.html">Projects</a> /
-        <a href="articles.html">Articles</a> /
-        <a href="contact.html">Contact</a>
-    </nav>
     <main>
-        <section class="centered">
-            <h1>Frontend Developer</h1>
-            <p>html only with proper layout, no styling</p>
+        <section class="main-intro">
+            <div class="intro">
+                <h1>Frontend Developer</h1>
+                <p>html only with proper layout, no styling</p>
+            </div>
+        </section>
+
+        <section class="content-row">
+            <article class="content-column underline left">
+                <h2>Projects</h2>
+                <ul>
+                    <li>HTML Only Portfolio</li>
+                    <li>Calculator</li>
+                    <li>Quiz app</li>
+                    <li>Countdown Timer</li>
+                    <li>Product Upcoming Page</li>
+                </ul>
+            </article>
+            <article class="content-column middle">
+                <div class="work-experience">
+                    <h2>Work Experience</h2>
+                    <p class="caveat">roadmap.sh</p>
+                    <p>Solved all the frontend projects</p>
+                    <a href="" target="_blank">Visit my Profile</a>
+                </div>
+                <div class="opensource-work">
+                    <h2>OpenSource Work</h2>
+                    <p>Contributed to 50 opensource <br> projects. Made my own projects with <br> 200 Github Stars.</p>
+                    <a href="" target="_blank">Visit my Github Profile</a>
+                </div>
+            </article>
+
+            <aside class="content-column right">
+                <h2>Education</h2>
+                <p>Graduated with 3.76 out of 4 <br> CGPA. Won ACME Hackathon. <br> Organized 30 sessions.</p>
+                <h3>Courses I took: </h3>
+                <ul>
+                    <li>- Object Oriented Programming</li>
+                    <li>- Data Structures and Algorithms</li>
+                    <li>- Web Engineering</li>
+                    <li>- Artificial Intelligence</li>
+                    <li>- Human Computer Interaction</li>
+                    <li>- Computer Graphics</li>
+                    <li>- Database Management Systems</li>
+                    <li>- Distributed Database Systems</li>
+                    <li>- Discreet Mathematics</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="reviews">
+            <h2>Reviews from my teacher</h2>
+            <div class="reviews-row">
+                <article class="reviews-column">
+                    <p>John Doe was a brilliant<br> student; always stood out with his assignments <br><span
+                            class="reviewer">Jane Doe</span><br>
+                        <span class="reviewer-title">Assistant Professor</span>
+                    </p>
+                </article>
+
+                <article class="reviews-column">
+                    <p>John Doe was a brilliant<br> student; always stood out with his assignments <br><span
+                            class="reviewer">Jane Doe</span><br>
+                        <span class="reviewer-title">Assistant Professor</span>
+                    </p>
+                </article>
+
+                <article class="reviews-column">
+                    <p>John Doe was a brilliant<br> student; always stood out with his assignments <br><span
+                            class="reviewer">Jane Doe</span><br>
+                        <span class="reviewer-title">Assistant Professor</span>
+                    </p>
+                </article>
+            </div>
+
         </section>
     </main>
-    <section class="content-row">
-        <section class="content-column underline left">
-            <h1>Projects</h1>
-            <ul>
-                <li>HTML Only Portfolio</li>
-                <li>Calculator</li>
-                <li>Quiz app</li>
-                <li>Countdown Timer</li>
-                <li>Product Upcoming Page</li>
-            </ul>
-        </section>
-        <section class="content-column middle">
-            <section class="work-experience">
-                <h1>Work Experience</h1>
-                <p class="calveat">roadmap.sh</p>
-                <p>Solved all the frontend projects</p>
-                <a href="" target="_blank">Visit my Profile</a>
-            </section>
-            <section class="opensource-work">
-                <h1>OpenSource Work</h1>
-                <p>Contributed to 50 opensource <br> projects. Made my own projects with <br> 200 Github Stars.</p>
-                <a href="" target="_blank">Visit my Github Profile</a>
-            </section>
-
-        </section>
-        <section class="content-column right">
-            <h1>Education</h1>
-            <p>Graduated with 3.76 out of 4 <br> CGPA. Won ACME Hackathon. <br> Organized 30 sessions.</p>
-            <p>Courses I took: </p>
-            <ul>
-                <li>- Object Oriented Programming</li>
-                <li>- Data Structures and Algorithms</li>
-                <li>- Web Engineering</li>
-                <li>- Artificial Intelligence</li>
-                <li>- Human Computer Interaction</li>
-                <li>- Computer Graphics</li>
-                <li>- Database Management Systems</li>
-                <li>- Distributed Database Systems</li>
-                <li>- Discreet Mathematics</li>
-            </ul>
-        </section>
-    </section>
-    <section class="reviews">
-        <h1>Reviews from my teacher</h1>
-        <section class="reviews-row">
-            <section class="reviews-column">
-                <p>John Doe was a brilliant<br> student; always stood out with his assignments. <br><span
-                        style="color: #bfbfbf">Jane Doe</span><br>
-                    <span style="color: #bfbfbf">Assistant Professor</span>
-                </p>
-            </section>
-
-            <section class="reviews-column">
-                <p>John Doe was a brilliant<br> student; always stood out with his assignments. <br><span
-                        style="color: #bfbfbf">Jane Doe</span><br>
-                    <span style="color: #bfbfbf">Assistant Professor</span>
-                </p>
-            </section>
-
-            <section class="reviews-column">
-                <p>John Doe was a brilliant<br> student; always stood out with his assignments. <br><span
-                        style="color: #bfbfbf">Jane Doe</span><br>
-                    <span style="color: #bfbfbf">Assistant Professor</span>
-                </p>
-            </section>
-        </section>
-
-    </section>
 
     <footer>
         <p class="rights">© all rights reserved 2025</p>
